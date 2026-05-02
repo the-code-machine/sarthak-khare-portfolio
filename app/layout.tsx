@@ -18,7 +18,7 @@ const sans = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://sarthakkhare.dev"),
+  metadataBase: new URL("https://sarthak-khare-portfolio.vercel.app"),
   title: "Sarthak Khare — Tech Lead & Full-Stack Engineer",
   description:
     "Tech Lead at Cobox. Full-stack engineer building products, infrastructure, and open-source tools — from Wikimedia archives to production SaaS.",
@@ -33,12 +33,14 @@ export const metadata: Metadata = {
     "Freelance Developer",
     "India",
   ],
-  authors: [{ name: "Sarthak Khare", url: "https://github.com/the-code-machine" }],
+  authors: [
+    { name: "Sarthak Khare", url: "https://github.com/the-code-machine" },
+  ],
   openGraph: {
     title: "Sarthak Khare — Tech Lead & Full-Stack Engineer",
     description:
       "Tech Lead at Cobox, building products, infrastructure, and open-source tools.",
-    url: "https://sarthakkhare.dev",
+    url: "https://sarthak-khare-portfolio.vercel.app",
     siteName: "Sarthak Khare",
     locale: "en_IN",
     type: "website",
