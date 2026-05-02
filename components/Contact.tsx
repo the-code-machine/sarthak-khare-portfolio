@@ -96,7 +96,7 @@ export default function Contact() {
               Icon: Instagram,
               label: "Instagram",
               href: profile.socials.instagram,
-              sub: "@ysarthak_io",
+              sub: "@sarthak_io",
             },
             {
               Icon: Phone,
