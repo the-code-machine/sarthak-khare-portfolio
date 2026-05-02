@@ -1,15 +1,19 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Mail, Github, Linkedin, Instagram, Phone, ArrowUpRight } from "lucide-react";
+import {
+  Mail,
+  Github,
+  Linkedin,
+  Instagram,
+  Phone,
+  ArrowUpRight,
+} from "lucide-react";
 import { profile } from "@/lib/data";
 
 export default function Contact() {
   return (
-    <section
-      id="contact"
-      className="relative overflow-hidden py-28 md:py-40"
-    >
+    <section id="contact" className="relative overflow-hidden py-28 md:py-40">
       {/* Background */}
       <div className="pointer-events-none absolute inset-0 dotted-grid opacity-50" />
       <div className="pointer-events-none absolute -bottom-40 left-1/2 h-[28rem] w-[28rem] -translate-x-1/2 rounded-full bg-moss-50 blur-3xl" />
@@ -46,7 +50,8 @@ export default function Contact() {
           className="mt-6 max-w-xl text-base leading-relaxed text-ink-soft md:text-lg"
         >
           I take on a small number of select projects outside Cobox each
-          quarter. Tell me what you&apos;re building — I&apos;ll reply within 48 hours.
+          quarter. Tell me what you&apos;re building — I&apos;ll reply within 48
+          hours.
         </motion.p>
 
         {/* Email card */}
@@ -75,10 +80,30 @@ export default function Contact() {
         {/* Methods grid */}
         <div className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
           {[
-            { Icon: Github, label: "GitHub", href: profile.socials.github, sub: "the-code-machine" },
-            { Icon: Linkedin, label: "LinkedIn", href: profile.socials.linkedin, sub: "/sarthak-khare" },
-            { Icon: Instagram, label: "Instagram", href: profile.socials.instagram, sub: "@yourhandle" },
-            { Icon: Phone, label: "Phone", href: `tel:${profile.phone.replace(/\s/g, "")}`, sub: profile.phone },
+            {
+              Icon: Github,
+              label: "GitHub",
+              href: profile.socials.github,
+              sub: "the-code-machine",
+            },
+            {
+              Icon: Linkedin,
+              label: "LinkedIn",
+              href: profile.socials.linkedin,
+              sub: "/sarthak-khare",
+            },
+            {
+              Icon: Instagram,
+              label: "Instagram",
+              href: profile.socials.instagram,
+              sub: "@ysarthak_io",
+            },
+            {
+              Icon: Phone,
+              label: "Phone",
+              href: `tel:${profile.phone.replace(/\s/g, "")}`,
+              sub: profile.phone,
+            },
           ].map(({ Icon, label, href, sub }, i) => (
             <motion.a
               key={label}
