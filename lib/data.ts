@@ -270,10 +270,10 @@ export const projects: Project[] = [
 // ---------- WIKI TOOLS ----------
 export const wikiTools = [
   {
-    title: "Commons Metadata Generator",
-    url: "https://commons-metadata-generator.toolforge.org/",
+    title: "Commons Image Converter",
+    url: "https://commonsimageconverter.toolforge.org/",
     description:
-      "A Toolforge tool that generates standards-compliant metadata for Wikimedia Commons uploads.",
+      "A Toolforge tool that converts and optimizes images into Wikimedia Commons-compatible formats before upload.",
     host: "Wikimedia Toolforge",
   },
   {
