@@ -51,7 +51,6 @@ export const metadata: Metadata = {
       { url: "/apple-icon.png?v=2", sizes: "180x180", type: "image/png" },
     ],
   },
-  // ⬆⬆⬆  END NEW BIT  ⬆⬆⬆
 
   openGraph: {
     title: "Sarthak Khare — Tech Lead & Full-Stack Engineer",
