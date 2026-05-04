@@ -86,7 +86,13 @@ export type Project = {
   slug: string;
   title: string;
   client: string;
-  category: "Cobox" | "Internship" | "Tuffle" | "Freelance" | "Wiki Tool";
+  category:
+    | "Cobox"
+    | "Internship"
+    | "Tuffle"
+    | "Freelance"
+    | "Wiki Tool"
+    | "Glossour";
   year: string;
   url: string;
   image: string;
@@ -192,7 +198,7 @@ export const projects: Project[] = [
     slug: "glossour-web",
     title: "Glossour — Agency Website",
     client: "Glossour Digital Marketing",
-    category: "Freelance",
+    category: "Glossour",
     year: "2023 — 2024",
     url: "https://www.glossour.com/",
     image: "/images/projects/glossour-web.png",
@@ -205,7 +211,7 @@ export const projects: Project[] = [
     slug: "glossour-app",
     title: "Glossour — Android App",
     client: "Glossour Digital Marketing",
-    category: "Freelance",
+    category: "Glossour",
     year: "2023 — 2024",
     url: "https://play.google.com/store/apps/details?id=com.glossour.glossour_production",
     image: "/images/projects/glossour-app.png",
@@ -218,7 +224,7 @@ export const projects: Project[] = [
     slug: "effortless-events",
     title: "Effortless Events",
     client: "Effortless Events",
-    category: "Freelance",
+    category: "Glossour",
     year: "2024",
     url: "https://www.effortlessevents.in/",
     image: "/images/projects/effortless-events.png",
@@ -231,7 +237,7 @@ export const projects: Project[] = [
     slug: "studygen",
     title: "StudyGen Australia",
     client: "StudyGen",
-    category: "Freelance",
+    category: "Glossour",
     year: "2024",
     url: "https://studygen.com.au/",
     image: "/images/projects/studygen.png",
