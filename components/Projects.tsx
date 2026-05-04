@@ -6,7 +6,14 @@ import SectionHeader from "./ui/SectionHeader";
 import ProjectCard from "./ui/ProjectCard";
 import { projects } from "@/lib/data";
 
-const categories = ["All", "Cobox", "Internship", "Tuffle", "Freelance"] as const;
+const categories = [
+  "All",
+  "Cobox",
+  "Internship",
+  "Tuffle",
+  "Glossour",
+  "Freelance",
+] as const;
 type Category = (typeof categories)[number];
 
 export default function Projects() {
