@@ -76,6 +76,27 @@ export default function Contact() {
             <ArrowUpRight className="h-5 w-5 md:h-6 md:w-6" />
           </span>
         </motion.a>
+        <motion.a
+          href={"mailto:" + "sarthak@cobox.co"}
+          initial={{ opacity: 0, y: 24 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.7, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
+          whileHover={{ y: -4 }}
+          className="group mt-10 flex w-full items-center justify-between rounded-3xl bg-ink p-6 text-cream-50 shadow-card transition-shadow hover:shadow-card-hover md:p-10"
+        >
+          <div className="flex min-w-0 items-center gap-4 md:gap-6">
+            <span className="grid h-12 w-12 flex-none place-items-center rounded-2xl bg-moss-500 md:h-14 md:w-14">
+              <Mail className="h-5 w-5 md:h-6 md:w-6" />
+            </span>
+            <span className="truncate font-display text-2xl tracking-tight md:text-4xl">
+              sarthak@cobox.co
+            </span>
+          </div>
+          <span className="grid h-12 w-12 flex-none place-items-center rounded-full border border-cream-50/20 transition-all group-hover:bg-cream-50 group-hover:text-ink md:h-14 md:w-14">
+            <ArrowUpRight className="h-5 w-5 md:h-6 md:w-6" />
+          </span>
+        </motion.a>
 
         {/* Methods grid */}
         <div className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
