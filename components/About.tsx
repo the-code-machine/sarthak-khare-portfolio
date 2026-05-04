@@ -20,7 +20,7 @@ export default function About() {
               {/* Replace src with your portrait */}
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/images/portrait.png"
+                src="https://meta.wikimedia.org/wiki/File:Sarthak_Khare.jpg"
                 alt={profile.name}
                 className="h-full w-full object-cover"
                 onError={(e) => {
@@ -68,7 +68,11 @@ export default function About() {
               initial={{ opacity: 0, y: 24 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-80px" }}
-              transition={{ duration: 0.7, delay: 0.05, ease: [0.22, 1, 0.36, 1] }}
+              transition={{
+                duration: 0.7,
+                delay: 0.05,
+                ease: [0.22, 1, 0.36, 1],
+              }}
               className="mt-5 font-display text-4xl tracking-tightest text-ink md:text-5xl"
             >
               I like building things that work — and keep working at scale.
@@ -97,7 +101,11 @@ export default function About() {
               initial={{ opacity: 0, y: 16 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-80px" }}
-              transition={{ duration: 0.7, delay: 0.4, ease: [0.22, 1, 0.36, 1] }}
+              transition={{
+                duration: 0.7,
+                delay: 0.4,
+                ease: [0.22, 1, 0.36, 1],
+              }}
               className="mt-10 grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-cream-300 bg-cream-300 sm:grid-cols-4"
             >
               {[
