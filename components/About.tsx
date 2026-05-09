@@ -20,7 +20,7 @@ export default function About() {
               {/* Replace src with your portrait */}
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="https://meta.wikimedia.org/wiki/File:Sarthak_Khare.jpg"
+                src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Sarthak_Khare.jpg?utm_source=meta.wikimedia.org&utm_campaign=index&utm_content=original"
                 alt={profile.name}
                 className="h-full w-full object-cover"
                 onError={(e) => {
