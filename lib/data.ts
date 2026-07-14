@@ -123,6 +123,19 @@ export const projects: Project[] = [
     ],
     role: "Tech Lead — full-stack & infra",
   },
+  {
+    slug: "other",
+    title: "Niya Partners",
+    client: "Niya Partners · Freelance",
+    category: "Freelance",
+    year: "2026 June",
+    url: "https://niya.vc/",
+    image: "/images/projects/niya.png",
+    summary:
+      "Corporate website for a venture capital firm — clean, modern design.",
+    stack: ["Webflow", "Figma", "Rive"],
+    role: "Webflow developer — frontend & design",
+  },
 
   // ---------- INTERNSHIP ----------
   {
